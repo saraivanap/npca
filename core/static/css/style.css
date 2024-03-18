@@ -20,7 +20,7 @@
 /* barra de pesquisa */
 .search-bar input[type="text"] {
     padding: 5px;
-    border-radius: px; /* borda redonda */
+    border-radius: 30px; /* borda redonda */
     border: 1px solid #ccc;
 }
 
