@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPCA</title>
+    <!-- links arquivos CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+<!-- barra de navegação fixa -->
+<div class="navbar">
+    <!-- Logo à direita -->
+    <div class="logo">
+        <img src="{% static 'images/logo.png' %}" alt="Logo">
+    </div>
+    <!-- barra de pesquisa à esquerda -->
+    <div class="search-bar">
+        <input type="text" placeholder="Pesquisar...">
+        <button type="submit">Pesquisar</button>
+    </div>
+</div>
+
+<!-- opções de navegação -->
+<div class="options">
+    <a href="#">Home</a>
+    <a href="#">Linhas de Pesquisa</a>
+    <a href="#">Projetos</a>
+    <a href="#">Contato</a>
+    <a href="#">Outros</a>
+</div>
+
+<!-- separador -->
+<hr>
+
+<!-- Conteúdo da página -->
+    <div class="content">
+        <!-- Texto -->
+        <p>O Grupo de Pesquisa Núcleo de Pesquisas em Computação Aplicada da Universidade Federal Rural da Amazônia (UFRA) é uma entidade 
+            criada com o propósito de servir como um catalisador para o desenvolvimento de pesquisas em uma ampla gama de áreas da ciência da computação. 
+            Entre estas áreas estão a Inteligência Computacional, a Biologia Computacional, a Tecnologia, Inovação e Educação, as Redes de Computadores, 
+            a Informática Agrária, a Informática Aplicada à Saúde e a Computação Verde. Professores pesquisadores dos diversos campi da UFRA,
+             juntamente com colaboradores externos de instituições parceiras, como UFPA, UFAM, IFPA, Prodepa, Uninassau, entre outras, 
+            unem esforços em prol do avanço do conhecimento nessas áreas de atuação. 
+            Essa colaboração multidisciplinar e interinstitucional fortalece o impacto e a relevância das pesquisas realizadas, 
+            contribuindo para o desenvolvimento científico e tecnológico não apenas da região amazônica, mas também do país como um todo.</p>
+        <!-- Botões -->
+        <div class="content-buttons">
+            <button type="button" class="btn btn-dark rounded-pill mr-2">Publicações</button>
+            <button type="button" class="btn btn-dark rounded-pill mr-2">Laboratório de Computação Aplicada</button>
+            <button type="button" class="btn btn-dark rounded-pill">GPD / CNPq</button>
+        </div>
+    </div>
+
+</body>
+</html>

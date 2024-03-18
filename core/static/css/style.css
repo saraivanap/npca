@@ -1,0 +1,74 @@
+/* barra de navegação */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff; /* cor de fundo da barra */
+    color: #000; /* cor do texto */
+    padding: 10px 20px; /* espaçamento interno */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* barra de navegação esteja acima de outros elementos */
+}
+
+/* logo */
+.logo img {
+    max-height: 50px; /* altura */
+}
+
+/* barra de pesquisa */
+.search-bar input[type="text"] {
+    padding: 5px;
+    border-radius: px; /* borda redonda */
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    border-radius: 30px; /* borda redonda */
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* opções de navegação */
+.options {
+    margin-top: 70px; /* Espaço para a barra de navegação */
+    text-align: center;
+}
+
+.options a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+    text-align: right;
+}
+
+/* separador */
+hr {
+    border: 0;
+    border-top: 1px solid #c9c9c9;
+    margin: 20px auto;
+    width: 100%; /* largura do separador */
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content-buttons {
+    margin-top: 30px;
+}
+
+.content-buttons button {
+    margin-right: 20px;
+    background-color: #000;
+    color: #fff;
+    width: 300px; /* tamanho */
+    height: 30px; /*altura */
+    border-radius: 20px; /* borda redonda */
+    margin-right: 20px; /* espaçamento entre os botões */
+}
