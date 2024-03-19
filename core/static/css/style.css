@@ -138,10 +138,11 @@ hr {
 .footer {
     margin-top: 30px;
     background-color: #00BAB3; /* cor de fundo */
-    color: #fff; /* cor do texto no */
-    padding: 20px; /* espaçamento interno do */
+    color: #fff; /* cor do texto */
+    padding: 20px; /* espaçamento interno */
     display: flex; /* exibe os elementos em linha */
     justify-content: space-between; /* alinha os itens nos extremos */
+    font-size: 20px;
 }
 
 .footer-menu ul {
@@ -150,26 +151,45 @@ hr {
 }
 
 .footer-menu ul li {
-    display: inline; /* exibe os itens em linha */
-    margin-right: 20px; /* adiciona espaçamento entre os itens */
+    display: block; /* exibe os itens em bloco */
+    margin-right: 30px; /* adiciona espaçamento entre os itens */
+    font-size: 16px;
 }
 
 .footer-menu ul li:last-child {
     margin-right: 0; /* remove a margem direita do último item */
+    color: #fff;
 }
 
-.social-icons a {
-    color: #fff; /* cor dos ícones de redes sociais */
-    text-decoration: none; /* remove sublinhado dos links */
-    margin-left: 10px; /* adiciona espaçamento entre os ícones */
+.social-icons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* alinha na esquerda */
+    align-items: center;
+    fill: #fff;
 }
 
-.social-icons a:hover {
-    color: #000; /* altera a cor ao passar o mouse sobre os ícones */
+.social-icons div {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* espaçamento entre itens */
+    margin-bottom: 10px;
+}
+
+.social-icons svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.social-icons .icon-text {
+    font-size: 16px;
 }
 
 /* texto de pesquisa */
 .text-pesquisa {
+    display: block;
     margin-top: none; /* espaçamento superior */
     padding: 20px; /* preenchimento interno */
 }
