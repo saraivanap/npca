@@ -135,3 +135,35 @@ hr {
     margin-right: 400px;
 }
 
+.footer {
+    margin-top: 30px;
+    background-color: #00BAB3; /* cor de fundo */
+    color: #fff; /* cor do texto no */
+    padding: 20px; /* espaçamento interno do */
+    display: flex; /* exibe os elementos em linha */
+    justify-content: space-between; /* alinha os itens nos extremos */
+}
+
+.footer-menu ul {
+    list-style-type: none; /* remove os marcadores de lista */
+    padding: 0;
+}
+
+.footer-menu ul li {
+    display: inline; /* exibe os itens em linha */
+    margin-right: 20px; /* adiciona espaçamento entre os itens */
+}
+
+.footer-menu ul li:last-child {
+    margin-right: 0; /* remove a margem direita do último item */
+}
+
+.social-icons a {
+    color: #fff; /* cor dos ícones de redes sociais */
+    text-decoration: none; /* remove sublinhado dos links */
+    margin-left: 10px; /* adiciona espaçamento entre os ícones */
+}
+
+.social-icons a:hover {
+    color: #000; /* altera a cor ao passar o mouse sobre os ícones */
+}
