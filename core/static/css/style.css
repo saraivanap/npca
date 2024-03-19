@@ -12,9 +12,21 @@
     z-index: 1000; /* barra de navegação esteja acima de outros elementos */
 }
 
-/* logo */
+.logo {
+    display: flex;
+    justify-content: left; /* deixa na esquerda horizontal */
+    align-items: center; /* centraliza verticalmente */
+}
+
 .logo img {
-    max-height: 50px; /* altura */
+    max-width: 15%; /* imagem não ultrapassa a largura da div */
+    height: auto; /* mantém a proporção da imagem */
+    margin: 0 10px; /* margem entre as imagens */
+}
+
+.search-bar {
+    display: flex; /* elementos flexíveis */
+    align-items: center; /* alinha os itens verticalmente ao centro */
 }
 
 /* barra de pesquisa */
@@ -22,6 +34,7 @@
     padding: 5px;
     border-radius: 30px; /* borda redonda */
     border: 1px solid #ccc;
+    margin-right: 10px; /*  espaçamento de 10px à direita do input */
 }
 
 .search-bar button {
@@ -31,11 +44,16 @@
     background-color: #000;
     color: #fff;
     cursor: pointer;
+    margin-right: 50px;
+}
+
+.search-bar button:hover {
+    background-color: #00BAB3; /* cor de fundo do botão ao passar o mouse */
 }
 
 /* opções de navegação */
 .options {
-    margin-top: 70px; /* Espaço para a barra de navegação */
+    margin-top: 80px; /* espaço para a barra de navegação */
     text-align: center;
 }
 
@@ -61,16 +79,16 @@ hr {
 
 .content-buttons {
     margin-top: 30px;
+    text-align: center;
 }
 
 .content-buttons button {
-    margin-right: 20px;
+    margin-right: 20px; /* espaçamento entre os botões */
     background-color: #000;
     color: #fff;
     width: 300px; /* tamanho */
     height: 30px; /*altura */
     border-radius: 20px; /* borda redonda */
-    margin-right: 20px; /* espaçamento entre os botões */
 }
 
 .title-with-separator {
@@ -79,6 +97,25 @@ hr {
     align-items: center; /* alinha os itens verticalmente */
     margin-left: 30px;
 }
+
+.highlight-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+.highlight-box {
+    text-align: center;
+    margin: 0 20px; /* espaçamento entre as caixas */
+}
+
+.highlight-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* espaçamento entre a imagem e a legenda */
+}
+
 
 .content-title {
     margin-right: 20px; /* espaçamento entre o título e o separador */
@@ -89,3 +126,12 @@ hr {
     height: 5px; /* altura do separador */
     background-color: #00BAB3; /* cor do separador */
 }
+
+.text-ufra {
+    margin-top: 10px; /* espaçamento entre o separador e o texto */
+    color: #000; /* cor do texto */
+    text-align: left; /* alinhamento do texto */
+    margin-left: 20px; /* margem esquerda */
+    margin-right: 400px;
+}
+
