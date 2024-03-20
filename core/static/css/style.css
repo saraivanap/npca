@@ -21,7 +21,6 @@
 .logo img {
     max-width: 15%; /* imagem não ultrapassa a largura da div */
     height: auto; /* mantém a proporção da imagem */
-    margin: 0 10px; /* margem entre as imagens */
 }
 
 .search-bar {
@@ -107,14 +106,15 @@ hr {
 
 .highlight-box {
     text-align: center;
-    margin: 0 20px;
+    margin: 0 50px;
     overflow: hidden;
     border-radius: 30px; /* adiciona bordas arredondadas */
 }
 
 .highlight-box img {
-    max-width: 50%; /* garante que a imagem não ultrapasse o limite da caixa */
-    height: auto;
+    max-width: 100%; /* garante que a imagem não ultrapasse o limite da caixa */
+    height: 400px;
+    width: 300px;
     margin-bottom: 10px;
 }
 
