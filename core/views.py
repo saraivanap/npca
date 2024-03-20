@@ -5,3 +5,6 @@ def index(request):
 
 def pesquisa(request):
     return render(request, 'pesquisa.html')
+
+def projetos(request):
+    return render(request, 'projetos.html')
