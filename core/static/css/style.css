@@ -102,20 +102,21 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Ajuste conforme necessário */
+    margin-top: 20px;
 }
 
 .highlight-box {
     text-align: center;
-    margin: 0 20px; /* espaçamento entre as caixas */
+    margin: 0 20px;
+    overflow: hidden;
+    border-radius: 30px; /* adiciona bordas arredondadas */
 }
 
 .highlight-box img {
-    max-width: 100%;
+    max-width: 50%; /* garante que a imagem não ultrapasse o limite da caixa */
     height: auto;
-    margin-bottom: 10px; /* espaçamento entre a imagem e a legenda */
+    margin-bottom: 10px;
 }
-
 
 .content-title {
     margin-right: 20px; /* espaçamento entre o título e o separador */
@@ -143,6 +144,7 @@ hr {
     display: flex; /* exibe os elementos em linha */
     justify-content: space-between; /* alinha os itens nos extremos */
     font-size: 20px;
+    justify-content: flex-start; /* Alinha os itens à esquerda */
 }
 
 .footer-menu ul {
@@ -165,27 +167,26 @@ hr {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* alinha na esquerda */
-    align-items: center;
-    fill: #fff;
+    justify-content: flex-start; /* alinha os itens na esquerda */
 }
 
 .social-icons div {
     display: flex;
-    align-items: center;
-    margin-right: 10px; /* espaçamento entre itens */
-    margin-bottom: 10px;
+    align-items: center; /* aliinha os itens verticalmente */
+    margin-bottom: 10px; /* espaçamento abaixo de cada item */
 }
 
 .social-icons svg {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
+    width: 24px; /* largura */
+    height: 24px; /* altura */
+    margin-right: 10px; /* espaçamento entre o ícone e o texto */
+    fill: #fff; /* cor do svg */
 }
 
 .social-icons .icon-text {
-    font-size: 16px;
+    font-size: 16px; /* tamanho do texto */
 }
+
 
 /* texto de pesquisa */
 .text-pesquisa {
