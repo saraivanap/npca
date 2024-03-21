@@ -1,0 +1,32 @@
+/* divs e textos */
+/* div que o separador fica abaixo do título */
+
+.content-title {
+    margin-right: 20px; /* espaçamento entre o título e o separador */
+}
+
+.title-with-separator {
+    margin-top: 20px; /* espaçamento entre os botões e o título */
+    align-items: center; /* alinha os itens verticalmente */
+    margin-left: 20px;
+}
+
+.separator {
+    flex-grow: 1; /* ocupa todo o espaço restante disponível */
+    height: 5px; /* tamanho do separador */
+    background-color: #00BAB3; /* cor do separador */
+}
+
+.text-body {
+    display: block;
+    margin-top: none; /* espaçamento superior */
+    padding: 20px; /* preenchimento interno */
+    margin-left: 20px;
+}
+
+.text-body p {
+    font-size: 16px; /* tamanho da fonte */
+    margin-top: none;
+    margin-bottom: 10px;
+    color: #000; /* cor do texto */
+}
