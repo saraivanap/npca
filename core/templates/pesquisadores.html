@@ -1,0 +1,82 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPCA</title>
+    <!-- links arquivos CSS -->
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="stylesheet" href="{% static 'css/div2.css' %}">
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+</head>
+
+<body>
+<!-- barra de navegação fixa -->
+<div class="navbar">
+    <!-- Logo à direita -->
+    <div class="logo">
+        <img src="{% static 'imagens/logo3.png' %}" alt="logo">
+    </div>
+    <!-- barra de pesquisa à esquerda -->
+    <div class="search-bar">
+        <input type="text" placeholder="Procurar...">
+        <button type="submit">Pesquisar</button>
+    </div>
+</div>
+
+<!-- opções de navegação -->
+<div class="options">
+    <a href="/">Home</a>
+    <a href="/pesquisa">Linhas de Pesquisa</a>
+    <a href="/projetos">Projetos</a>
+    <a href="/contato">Contato</a>
+    <a href="/pesquisadores">Pesquisadores</a>
+    <a href="/lab">Laboratório de Computação Aplicada</a>
+    <a href="/ps">Processos Seletivos</a>
+    <a href="/leituras">Leituras</a>
+    <a href="/oficinas">Oficinas e Cursos</a>
+</div>
+
+
+<!-- separador -->
+<hr>
+
+    <!-- título com Separador -->
+    <div class="title-with-separator">
+        <h2 class="content-title">Destaques</h2>
+        <div class="separator"></div>
+    </div>
+
+    <!-- destaques -->
+<div class="highlight-boxes">
+    <div class="highlight-box">
+        <img src="{% static 'imagens/fotopesquisador.png' %}" alt="Imagem 1">
+        <h3>Pesquisador 1</h3>
+    </div>
+    <div class="highlight-box">
+        <img src="{% static 'imagens/fotopesquisador.png' %}" alt="Imagem 2">
+        <h3>Pesquisador 2</h3>
+    </div>
+    <div class="highlight-box">
+        <img src="{% static 'imagens/fotopesquisador.png' %}" alt="Imagem 3">
+        <h3>Pesquisador 3</h3>
+    </div>
+</div>
+
+<div class="highlight-boxes">
+    <div class="highlight-box">
+        <img src="{% static 'imagens/fotopesquisador.png' %}" alt="Imagem 1">
+        <h3>Pesquisador 4</h3>
+    </div>
+    <div class="highlight-box">
+        <img src="{% static 'imagens/fotopesquisador.png' %}" alt="Imagem 2">
+        <h3>Pesquisador 5</h3>
+    </div>
+    <div class="highlight-box">
+        <img src="{% static 'imagens/fotopesquisador.png' %}" alt="Imagem 3">
+        <h3>Pesquisador 6</h3>
+    </div>
+</div>

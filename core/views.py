@@ -11,3 +11,6 @@ def projetos(request):
 
 def contato(request):
     return render(request, 'contato.html')
+
+def pesquisadores(request):
+    return render(request, 'pesquisadores.html')

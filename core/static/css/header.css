@@ -54,13 +54,14 @@
 .options {
     margin-top: 80px; /* espaço para a barra de navegação */
     text-align: center;
+    font-size: 20px;
 }
 
 .options a {
     color: #000;
     text-decoration: none;
     margin: 0 10px;
-    text-align: right;
+    text-align: center;
 }
 
 /* separador */

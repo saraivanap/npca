@@ -57,7 +57,7 @@ ROOT_URLCONF = 'npca.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],  # diretório onde o Django procura por templates 
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],  # diretório onde o django procura por templates 
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
