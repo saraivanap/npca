@@ -21,3 +21,20 @@
 .social-icons-contato .icon-text {
     font-size: 16px; /* tamanho do texto */
 }
+
+/* footer */
+.footer {
+    background-color: #00BAB3; /* cor de fundo */
+    color: #fff; /* cor do texto */
+    padding: 20px; /* espaçamento interno */
+    text-align: center; /* alinhamento do texto */
+    position: fixed; /* fixa o footer */
+    bottom: 0; /* alinha o footer na parte inferior */
+    width: 100%; /* largura total */
+}
+
+/* texto do footer */
+.footer p {
+    margin: 0; /* Remove margem padrão */
+    font-size: 14px; /* Tamanho da fonte */
+}

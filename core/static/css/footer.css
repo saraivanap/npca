@@ -6,7 +6,8 @@
     display: flex; /* exibe os elementos em linha */
     justify-content: space-between; /* alinha os itens nos extremos */
     font-size: 20px;
-    justify-content: flex-start; /* Alinha os itens à esquerda */
+    justify-content: flex-start; /* alinha os itens à esquerda */
+    margin: 0; /* remove margem padrão */
 }
 
 .footer-menu ul {
@@ -27,6 +28,7 @@
 
 .social-icons {
     margin-top: 30px;
+    margin-left: 900px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start; /* alinha os itens na esquerda */
