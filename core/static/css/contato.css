@@ -1,0 +1,23 @@
+.social-icons-contato {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* alinha os itens na esquerda */
+}
+
+.social-icons-contato div {
+    display: flex;
+    align-items: center; /* aliinha os itens verticalmente */
+    margin-bottom: 10px; /* espaçamento abaixo de cada item */
+}
+
+.social-icons-contato svg {
+    width: 24px; /* largura */
+    height: 24px; /* altura */
+    margin-right: 10px; /* espaçamento entre o ícone e o texto */
+    fill: #000; /* cor do svg */
+}
+
+.social-icons-contato .icon-text {
+    font-size: 16px; /* tamanho do texto */
+}

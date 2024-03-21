@@ -8,3 +8,6 @@ def pesquisa(request):
 
 def projetos(request):
     return render(request, 'projetos.html')
+
+def contato(request):
+    return render(request, 'contato.html')

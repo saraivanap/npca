@@ -1,0 +1,12 @@
+/* texto de pesquisa */
+.text-pesquisa {
+    display: block;
+    margin-top: none; /* espaçamento superior */
+    padding: 20px; /* preenchimento interno */
+}
+
+.text-pesquisa p {
+    font-size: 16px; /* tamanho da fonte */
+    line-height: 1.6; /* altura da linha */
+    color: #000; /* cor do texto */
+}
