@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPCA</title>
+    <!-- links arquivos CSS -->
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/publicacoes.css' %}">
+    <link rel="stylesheet" href="{% static 'css/div2.css' %}">
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+</head>
+
+<body>
+<!-- barra de navegação fixa -->
+<div class="navbar">
+    <!-- Logo à direita -->
+    <div class="logo">
+        <img src="{% static 'imagens/logo3.png' %}" alt="logo">
+    </div>
+    <!-- barra de pesquisa à esquerda -->
+    <div class="search-bar">
+        <input type="text" placeholder="Procurar...">
+        <button type="submit">Pesquisar</button>
+    </div>
+</div>
+
+<!-- opções de navegação -->
+<div class="options">
+    <a href="/">Home</a>
+    <a href="/pesquisa">Linhas de Pesquisa</a>
+    <a href="/projetos">Projetos</a>
+    <a href="/contato">Contato</a>
+    <a href="/pesquisadores">Pesquisadores</a>
+    <a href="/publicacoes">Publicações</a>
+    <a href="/lab">Laboratório</a>
+    <a href="/ps">Processos Seletivos</a>
+    <a href="/leituras">Leituras</a>
+    <a href="/oficinas">Oficinas e Cursos</a>
+</div>
+
+
+<!-- separador -->
+<hr>
+
+    <!-- título com Separador -->
+    <div class="title-with-separator">
+        <h2 class="content-title">Publicações</h2>
+        <div class="separator"></div>
+    </div>
+
+    <!-- destaques -->
+<div class="pubs">
+    <div class="pub-title">
+        <h3>Título</h3>
+    </div>
+    <div class="pub-text">
+        <p>informações:</p>
+        <p>DOI:</p>
+        <p>autores:</p>
+        <p>link para o artigo:</p>
+</div>

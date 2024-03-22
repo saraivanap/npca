@@ -14,3 +14,6 @@ def contato(request):
 
 def pesquisadores(request):
     return render(request, 'pesquisadores.html')
+
+def publicacoes(request):
+    return render(request, 'publicacoes.html')
