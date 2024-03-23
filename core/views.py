@@ -17,3 +17,6 @@ def pesquisadores(request):
 
 def publicacoes(request):
     return render(request, 'publicacoes.html')
+
+def lab(request):
+    return render(request, 'lab.html')
