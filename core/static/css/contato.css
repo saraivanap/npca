@@ -1,40 +1,34 @@
-.social-icons-contato {
-    margin-top: 30px;
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+ /* pesquisa */
+ .navbar .search-bar {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start; /* alinha os itens na esquerda */
+    align-items: center;
 }
 
-.social-icons-contato div {
-    display: flex;
-    align-items: center; /* aliinha os itens verticalmente */
-    margin-bottom: 10px; /* espaçamento abaixo de cada item */
+.navbar .search-bar input {
+    border-radius: 30px;
+    padding: 5px;
+    margin-right: 5px;
 }
 
-.social-icons-contato svg {
-    width: 24px; /* largura */
-    height: 24px; /* altura */
-    margin-right: 10px; /* espaçamento entre o ícone e o texto */
-    fill: #000; /* cor do svg */
+.navbar .search-bar button {
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color: aqua;
 }
 
-.social-icons-contato .icon-text {
-    font-size: 16px; /* tamanho do texto */
+ /* links */
+ .navbar-nav .nav-item .nav-link {
+    padding: 8px 12px;
 }
 
-/* footer */
-.footer {
-    background-color: #00BAB3; /* cor de fundo */
-    color: #fff; /* cor do texto */
-    padding: 20px; /* espaçamento interno */
-    text-align: center; /* alinhamento do texto */
-    position: fixed; /* fixa o footer */
-    bottom: 0; /* alinha o footer na parte inferior */
-    width: 100%; /* largura total */
-}
-
-/* texto do footer */
-.footer p {
-    margin: 0; /* remove margem padrão */
-    font-size: 14px; /* Tamanho da fonte */
+ /* header fixo */
+ .navbar.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
 }
