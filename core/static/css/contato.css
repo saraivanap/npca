@@ -1,34 +1,60 @@
-.navbar-brand img {
-    height: 50px;
-    width: auto;
-}
- /* pesquisa */
- .navbar .search-bar {
-    display: flex;
-    align-items: center;
+/* Estilizando a barra de navegação */
+.navbar {
+    /* Defina o fundo conforme sua preferência */
+    background-color: #f8f9fa;
 }
 
-.navbar .search-bar input {
+/* Estilo da marca da barra de navegação */
+.navbar-brand {
+    /* Personalize o estilo da fonte conforme necessário */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* links de navegação */
+.navbar-nav .nav-link {
+    /* Margem e padding */
+    margin-right: 10px;
+    padding: 10px;
+    
+    /* Cor do texto */
+    color: #000;
+    
+    /* Estilo de fonte */
+    font-weight: bold;
+}
+
+/* item ativo do link de navegação */
+.navbar-nav .nav-link.active {
+    /* Cor do texto ativo */
+    color: #000;
+}
+
+/* botão de pesquisa */
+.form-control {
+    /* borda arredondado */
     border-radius: 30px;
-    padding: 5px;
-    margin-right: 5px;
 }
 
-.navbar .search-bar button {
-    padding: 5px 20px;
-    border-radius: 30px;
-    background-color: aqua;
+/* botão de pesquisa */
+.btn-outline-success {
+    /* Cor do botão */
+    border-color: #000;
+    color: #000;
 }
 
- /* links */
- .navbar-nav .nav-item .nav-link {
-    padding: 8px 12px;
+/* título com separador */
+.title-with-separator {
+    /* Centralizar o texto */
+    text-align: left;
 }
 
- /* header fixo */
- .navbar.fixed-top {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1030;
+/* rodapé */
+.footer {
+    /* fundo claro */
+    background-color: #f8f9fa;
+    /* espaçamento vertical */
+    padding: 15px 0;
+    /* alinhar texto centralmente */
+    text-align: center;
 }
