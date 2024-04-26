@@ -112,3 +112,24 @@
 .footer a:hover {
     color: #333; /* cor do texto ao passar o mouse */
 }
+
+/* alinhar os itens verticalmente */
+.col-md-8 .d-flex {
+    flex-direction: column; /* define a direção flexível para a coluna */
+    align-items: flex-start; /* alinha os itens à esquerda */
+    margin-left: 300px;
+}
+
+/* adiciona margens entre os itens */
+.col-md-8 .d-flex > div {
+    margin-bottom: 10px;
+}
+
+/* remover sublinhado de todos os links */
+.footer a {
+    text-decoration: none;
+}
+
+.footer ul {
+    list-style-type: none;
+}
