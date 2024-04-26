@@ -9,3 +9,25 @@
 .d-flex > div {
     margin-bottom: 10px; /* Espaçamento entre os itens */
 }
+
+/* título dentro de div.text */
+.text-container {
+    width: 100%;
+    border: 1px solid #ccc; /* adiciona uma borda de 1px com cor cinza claro */
+    padding: 10px; /* adiciona espaço interno para o contêiner */
+    border-radius: 10px; /* adiciona bordas arredondadas */
+    box-sizing: border-box; /* inclui a borda e padding na largura total */
+}
+.text-container h3 {
+    font-size: 20px; /* tamanho maior para destacar o título */
+    font-weight: bold; /* fonte em negrito */
+    margin-bottom: 10px; /* espaçamento inferior para separação visual */
+    text-align: left;
+}
+
+/* texto dentro de div.text */
+.text-container p {
+    line-height: 1.5; /* define o espaçamento entre linhas */
+    margin-bottom: 10px; /* adiciona um espaço entre parágrafos para melhor separação visual */
+    text-align: left;
+}
