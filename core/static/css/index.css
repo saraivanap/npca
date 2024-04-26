@@ -60,20 +60,40 @@
     color: #000; /* cor do texto */
     font-weight: bold; /* fonte em negrito */
     font-size: 24px; /* tamanho da fonte */
-    margin-top: auto;
+    margin-top: 50px;
 }
 
 /* separador */
-.separator {
-    background-color: #000; /* cor */
-    height: 5px; /* altura */
-    margin-top: 10px;  /* margem superior */
+hr {
+    border: 0;
+    height: 6px;
+    background-color: #00bab3;
+    margin: 10px 0;
 }
+
 
 /* centralizando o texto na coluna */
 .container .row .col {
     text-align: center;
+    margin-top: 20px;
 }
+
+/* imagens dos cards */
+.card-img-top {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+ .card {
+    border-radius: 30px;
+    border-color: #c3c3c3;
+ }
+
+ .card-body {
+    text-align: center;
+    color: #000;
+ }
 
 /* botões */
 .button {
@@ -131,6 +151,7 @@
     margin-right: 20px; /* margem direita */
     transition: color 0.3s; /* transição de cor ao passar o mouse */
     text-decoration: none; /* remove sublinhado dos links */
+    width: 100%; /* Define a largura como 100% */
 }
 
 /* hover para os links do rodapé */
