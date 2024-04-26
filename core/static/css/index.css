@@ -1,20 +1,18 @@
 /* barra de navegação */
 .navbar {
-    background-color: #fff;  /* cor de fundo */
+    background-color: #fff !important;  /* cor de fundo */
     padding: 10px 20px; /* espaçamento interno */
-    border-radius: 5px; /* bordas arredondadas */
 }
 
 /* itens do menu de navegação */
-.nav-link {
-    color: #000; /* cor do texto */ 
-    margin-right: 20px;  /* espaçamento */  
-    transition: color 0.3s; /* efeito hover */
+.nav-link, .dropdown-item {
+    color: #000 !important; /* cor do texto preta */
+    transition: color 0.3s; /* transição suave para o efeito hover */
 }
 
-/* efeito hover para os itens do menu de navegação */
-.nav-link:hover {
-    color: #333; /* cor do texto ao passar o mouse */
+/* hover  */
+.nav-link:hover, .dropdown-item:hover {
+    color: #c3c3c3 !important; 
 }
 
 /* barra de pesquisa */
@@ -28,18 +26,29 @@
     border-radius: 30px; /* bordas arredondadas */
 }
 
-/* botão de pesquisa */
+/*  botão pesquisa */
 .btn-outline-success {
-    color: #fff; /* cor do texto */
-    border-radius: 30px; /* bordas arredondadas */
-    background-color: #000;
-    border: none;
-    transition: background-color 0.3s; /* efeito hover */
+    color: #000; /* cor inicial do texto */
+    border-radius: 100px; /* bordas arredondadas */
+    background-color: transparent; /* fundo transparente */
+    border: none; 
+    text-align: center;
 }
 
+/* hover botão pesquisar */
 .btn-outline-success:hover {
-    background-color: #00bab3; /* cor do botão ao passar o mouse */
+    background-color: transparent; /* cor de fundo ao passar o mouse */
+    color: #333;
 }
+
+/* ao clicar no botão de pesquisa*/
+.btn-outline-success:active {
+    background-color: #f3f3f3 !important; /* cor de fundo ao ser clicado */
+    color: #000 !important; /* cor do texto */
+    border: #333 !important; /* cor da borda */
+    box-shadow: none !important;
+}
+
 
 /* título com separador */
 .content-title {
@@ -71,13 +80,15 @@
     color: #fff; /* cor do texto */
     border-radius: 30px; /* bordas arredondadas */
     padding: 5px 15px; /* padding interno para maior conforto */
+    border: none;
     transition: background-color 0.3s, color 0.3s; /* transição suave para o efeito hover */
 }
 
 /* hover para os botões */
 .button .btn-dark:hover {
-    background-color: #333; /* cor de fundo ao passar o mouse */
-    color: #fff; /* cor do texto ao passar o mouse */
+    background-color: #c3c3c3; /* cor de fundo ao passar o mouse */
+    color: #000; /* cor do texto ao passar o mouse */
+    border: none;
 }
 
 /* destaques */
@@ -94,9 +105,17 @@
     color: #000; /* cor */
 }
 
+/* container flexível */
+.d-flex {
+    display: flex;
+    justify-content: space-between; /* Espaço entre o texto e a imagem */
+    align-items: center; /* Alinha o texto e a imagem verticalmente no centro */
+}
+
+
 /* rodapé */
 .footer {
-    background-color: #fff; /* cor de fundo */
+    background-color: #f3f3f3; /* cor de fundo */
     padding: 20px 0;
     color: #000; /* cor do texto */
 }
@@ -106,11 +125,12 @@
     color: #000; /* cor do texto */
     margin-right: 20px; /* margem direita */
     transition: color 0.3s; /* transição de cor ao passar o mouse */
+    text-decoration: none; /* remove sublinhado dos links */
 }
 
 /* hover para os links do rodapé */
 .footer a:hover {
-    color: #333; /* cor do texto ao passar o mouse */
+    color: #c3c3c3; /* cor do texto ao passar o mouse */
 }
 
 /* alinhar os itens verticalmente */
@@ -125,10 +145,7 @@
     margin-bottom: 10px;
 }
 
-/* remover sublinhado de todos os links */
-.footer a {
-    text-decoration: none;
-}
+    
 
 .footer ul {
     list-style-type: none;

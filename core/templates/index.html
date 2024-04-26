@@ -17,18 +17,18 @@
     <!-- Barra de navegação -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <!-- Logo -->
+            <!-- logo -->
             <a class="navbar-brand" href="/">
                 <img src="{% static 'imagens/logo.png' %}" alt="logo" height="40">
             </a>
 
-            <!-- Botão para colapsar a barra de navegação em dispositivos menores -->
+            <!-- botão para colapsar a barra de navegação em dispositivos menores -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <!-- Menu de navegação -->
+            <!-- menu de navegação -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
@@ -43,15 +43,19 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/contato">Contato</a>
                     </li>
-                    <!-- Menu suspenso -->
+                    <!-- menu suspenso -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Mais
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/outros">Outros</a></li>
-                            <!-- Adicione mais opções aqui -->
+                            <li><a class="dropdown-item" href="/pesquisadores">Pesquisadores</a></li>
+                            <li><a class="dropdown-item" href="/pesquisadores">Publicações</a></li>
+                            <li><a class="dropdown-item" href="/pesquisadores">LabCap</a></li>
+                            <li><a class="dropdown-item" href="/pesquisadores">Processo Seletivo</a></li>
+                            <li><a class="dropdown-item" href="/pesquisadores">Leituras</a></li>
+                            <li><a class="dropdown-item" href="/pesquisadores">Oficinas e Cursos</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -59,7 +63,11 @@
                 <!-- barra de pesquisa -->
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Procurar..." aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-lg-0" type="submit">Pesquisar</button>
+                    <button class="btn btn-outline-success my-2 my-lg-0" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                          </svg>
+                    </button>
                 </form>
             </div>
         </div>
@@ -117,27 +125,31 @@
             </div>
         </div>
 
-         <!-- título com separador -->
-         <h2 class="content-title">UFRA</h2>
-         <hr>
-        <div class="row mt-4">
-            <div class="col">
-                <!-- texto -->
-                <p>A Universidade Federal Rural da Amazônia (UFRA), fundada em 1975, destaca-se como uma instituição 
-                    de ensino superior pública situada no estado do Pará. Reconhecida pela sua atuação nas áreas de ciências
-                    agrárias e ambientais, a UFRA oferece cursos de graduação e pós-graduação alinhados às demandas regionais, 
-                    promovendo a formação de profissionais qualificados e o avanço do conhecimento científico. Além disso, a 
-                    UFRA tem um forte compromisso com a extensão universitária, desenvolvendo projetos e programas que visam 
-                    à integração com a comunidade e à promoção do desenvolvimento sustentável na região amazônica.</p>
-                <!-- botões -->
+        <!-- título com separador -->
+<h2 class="content-title">UFRA</h2>
+<hr>
+<div class="row mt-4">
+    <div class="col">
+        <!-- Container flexível para o texto e a imagem -->
+        <div class="d-flex justify-content-between">
+            <!-- Texto -->
+            <div class="text">
+                <p>A Universidade Federal Rural da Amazônia (UFRA), fundada em 1975, destaca-se como uma instituição de ensino superior pública situada no estado do Pará. Reconhecida pela sua atuação nas áreas de ciências agrárias e ambientais, a UFRA oferece cursos de graduação e pós-graduação alinhados às demandas regionais, promovendo a formação de profissionais qualificados e o avanço do conhecimento científico. Além disso, a UFRA tem um forte compromisso com a extensão universitária, desenvolvendo projetos e programas que visam à integração com a comunidade e à promoção do desenvolvimento sustentável na região amazônica.</p>
+                <!-- Botão -->
                 <div class="button">
                     <button type="button" class="btn btn-dark rounded-pill mr-2">Ver no Mapa</button>
                 </div>
             </div>
+            <!-- Imagem -->
+            <div class="image">
+                <img src="static/imagens/ufra.png" alt="ufra" width="150" height="auto">
+            </div>
         </div>
     </div>
+</div>
+    </div>
 
-    <!-- Rodapé -->
+    <!-- rodapé -->
     <footer class="footer bg-light py-3 mt-4">
         <div class="container">
             <div class="row">
