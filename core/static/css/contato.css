@@ -1,14 +1,15 @@
-/* Estilizando a barra de navegação */
+/* barra de navegação */
 .navbar {
-    /* Defina o fundo conforme sua preferência */
-    background-color: #f8f9fa;
+    color: #000;
+    background-color: #fff;
 }
 
-/* Estilo da marca da barra de navegação */
+/* marca da barra de navegação */
 .navbar-brand {
-    /* Personalize o estilo da fonte conforme necessário */
+    /* estilo da fonte */
     font-size: 1.5rem;
     font-weight: bold;
+    color: #000;
 }
 
 /* links de navegação */
