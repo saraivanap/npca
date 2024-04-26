@@ -1,61 +1,9 @@
-/* barra de navegação */
-.navbar {
-    color: #000;
-    background-color: #fff;
+/* Estilização para o container flexível */
+.d-flex {
+    flex-direction: column; /* Organiza os itens em uma coluna */
 }
 
-/* marca da barra de navegação */
-.navbar-brand {
-    /* estilo da fonte */
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #000;
-}
-
-/* links de navegação */
-.navbar-nav .nav-link {
-    /* Margem e padding */
-    margin-right: 10px;
-    padding: 10px;
-    
-    /* Cor do texto */
-    color: #000;
-    
-    /* Estilo de fonte */
-    font-weight: bold;
-}
-
-/* item ativo do link de navegação */
-.navbar-nav .nav-link.active {
-    /* Cor do texto ativo */
-    color: #000;
-}
-
-/* botão de pesquisa */
-.form-control {
-    /* borda arredondado */
-    border-radius: 30px;
-}
-
-/* botão de pesquisa */
-.btn-outline-success {
-    /* Cor do botão */
-    border-color: #000;
-    color: #000;
-}
-
-/* título com separador */
-.title-with-separator {
-    /* Centralizar o texto */
-    text-align: left;
-}
-
-/* rodapé */
-.footer {
-    /* fundo claro */
-    background-color: #f8f9fa;
-    /* espaçamento vertical */
-    padding: 15px 0;
-    /* alinhar texto centralmente */
-    text-align: center;
+/* Estilo opcional para os itens */
+.d-flex > div {
+    margin-bottom: 10px; /* Espaçamento entre os itens */
 }
