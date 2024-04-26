@@ -13,6 +13,11 @@
 /* hover  */
 .nav-link:hover, .dropdown-item:hover {
     color: #c3c3c3 !important; 
+    background-color: transparent;
+}
+
+.dropdown-menu {
+    border-radius: 30px;
 }
 
 /* barra de pesquisa */
@@ -137,15 +142,13 @@
 .col-md-8 .d-flex {
     flex-direction: column; /* define a direção flexível para a coluna */
     align-items: flex-start; /* alinha os itens à esquerda */
-    margin-left: 300px;
+    margin-left: 500px;
 }
 
 /* adiciona margens entre os itens */
 .col-md-8 .d-flex > div {
     margin-bottom: 10px;
 }
-
-    
 
 .footer ul {
     list-style-type: none;
