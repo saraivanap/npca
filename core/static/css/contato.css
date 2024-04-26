@@ -1,9 +1,0 @@
-/* Estilização para o container flexível */
-.d-flex {
-    flex-direction: column; /* Organiza os itens em uma coluna */
-}
-
-/* Estilo opcional para os itens */
-.d-flex > div {
-    margin-bottom: 10px; /* Espaçamento entre os itens */
-}
