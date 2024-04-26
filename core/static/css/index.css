@@ -1,47 +1,114 @@
-.content {
-    padding: 20px;
-    text-align: center;
+/* barra de navegação */
+.navbar {
+    background-color: #fff;  /* cor de fundo */
+    padding: 10px 20px; /* espaçamento interno */
+    border-radius: 5px; /* bordas arredondadas */
 }
 
-.content-buttons {
-    margin-top: 30px;
-    text-align: center;
+/* itens do menu de navegação */
+.nav-link {
+    color: #000; /* cor do texto */ 
+    margin-right: 20px;  /* espaçamento */  
+    transition: color 0.3s; /* efeito hover */
 }
 
-.content-buttons button {
-    margin-right: 20px; /* espaçamento entre os botões */
+/* efeito hover para os itens do menu de navegação */
+.nav-link:hover {
+    color: #333; /* cor do texto ao passar o mouse */
+}
+
+/* barra de pesquisa */
+.form-inline {
+    margin-left: auto; /* espaçamento entre elementos */
+}
+
+/* campo de pesquisa */
+.form-control {
+    margin-right: 10px; /* margem direita */
+    border-radius: 30px; /* bordas arredondadas */
+}
+
+/* botão de pesquisa */
+.btn-outline-success {
+    color: #fff; /* cor do texto */
+    border-radius: 30px; /* bordas arredondadas */
     background-color: #000;
-    color: #fff;
-    width: 300px; /* tamanho */
-    height: 30px; /*altura */
-    border-radius: 20px; /* borda redonda */
+    border: none;
+    transition: background-color 0.3s; /* efeito hover */
 }
 
-.highlight-boxes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+.btn-outline-success:hover {
+    background-color: #00bab3; /* cor do botão ao passar o mouse */
 }
 
-.highlight-box {
-    text-align: center;
-    margin: 0 50px;
-    overflow: hidden;
-    border-radius: 30px; /* adiciona bordas arredondadas */
-}
-
-.highlight-box img {
-    max-width: 100%; /* garante que a imagem não ultrapasse o limite da caixa */
-    height: 400px;
-    width: 300px;
-    margin-bottom: 10px;
-}
-
-.text-ufra {
-    margin-top: 10px; /* espaçamento entre o separador e o texto */
+/* título com separador */
+.content-title {
     color: #000; /* cor do texto */
-    text-align: left; /* alinhamento do texto */
-    margin-left: 20px; /* margem esquerda */
-    margin-right: 400px;
+    font-weight: bold; /* fonte em negrito */
+    font-size: 24px; /* tamanho da fonte */
+    margin-top: auto;
+}
+
+/* separador */
+.separator {
+    background-color: #000; /* cor */
+    height: 5px; /* altura */
+    margin-top: 10px;  /* margem superior */
+}
+
+/* centralizando o texto na coluna */
+.container .row .col {
+    text-align: center;
+}
+
+/* botões */
+.button {
+    /* centralizar os botões */
+    text-align: center;
+}
+.button .btn-dark {
+    background-color: #000; /* cor de fundo */
+    color: #fff; /* cor do texto */
+    border-radius: 30px; /* bordas arredondadas */
+    padding: 5px 15px; /* padding interno para maior conforto */
+    transition: background-color 0.3s, color 0.3s; /* transição suave para o efeito hover */
+}
+
+/* hover para os botões */
+.button .btn-dark:hover {
+    background-color: #333; /* cor de fundo ao passar o mouse */
+    color: #fff; /* cor do texto ao passar o mouse */
+}
+
+/* destaques */
+.highlight-box { 
+    margin-bottom: 20px; /* margem inferior */
+    border-radius: 30px; /* bordas arredondadas */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* sombra */
+    background-color: #fff; /* cor de fundo */
+}
+
+/* títulos dos destaques */
+.highlight-box h3 {
+    font-weight: bold; /* fonte em negrito */
+    color: #000; /* cor */
+}
+
+/* rodapé */
+.footer {
+    background-color: #fff; /* cor de fundo */
+    padding: 20px 0;
+    color: #000; /* cor do texto */
+}
+
+/* links do rodapé */
+.footer a {
+    color: #000; /* cor do texto */
+    margin-right: 20px; /* margem direita */
+    transition: color 0.3s; /* transição de cor ao passar o mouse */
+}
+
+/* hover para os links do rodapé */
+.footer a:hover {
+    color: #333; /* cor do texto ao passar o mouse */
 }
