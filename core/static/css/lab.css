@@ -1,0 +1,177 @@
+/* barra de navegação */
+.navbar {
+    background-color: #fff !important;  /* cor de fundo */
+    padding: 10px 20px; /* espaçamento interno */
+    border-bottom: 1px solid #c3c3c3; /* cor e estilo da linha */
+}
+
+/* itens do menu de navegação */
+.nav-link, .dropdown-item {
+    color: #000 !important; /* cor do texto preta */
+    transition: color 0.3s; /* transição suave para o efeito hover */
+}
+
+/* hover  */
+.nav-link:hover, .dropdown-item:hover {
+    color: #c3c3c3 !important; 
+    background-color: transparent;
+}
+
+.dropdown-menu {
+    border-radius: 30px;
+}
+
+/* barra de pesquisa */
+.form-inline {
+    margin-left: auto; /* espaçamento entre elementos */
+}
+
+/* campo de pesquisa */
+.form-control {
+    margin-right: 10px; /* margem direita */
+    border-radius: 30px; /* bordas arredondadas */
+}
+
+/*  botão pesquisa */
+.btn-outline-success {
+    color: #000; /* cor inicial do texto */
+    border-radius: 100px; /* bordas arredondadas */
+    background-color: transparent; /* fundo transparente */
+    border: none; 
+    text-align: center;
+}
+
+/* hover botão pesquisar */
+.btn-outline-success:hover {
+    background-color: transparent; /* cor de fundo ao passar o mouse */
+    color: #333;
+}
+
+/* ao clicar no botão de pesquisa*/
+.btn-outline-success:active {
+    background-color: #f3f3f3 !important; /* cor de fundo ao ser clicado */
+    color: #000 !important; /* cor do texto */
+    border: #333 !important; /* cor da borda */
+    box-shadow: none !important;
+}
+
+body {
+    margin-top: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* título com separador */
+.content-title {
+    color: #000; /* cor do texto */
+    font-weight: bold; /* fonte em negrito */
+    font-size: 24px; /* tamanho da fonte */
+    margin-top: 20px;
+}
+
+/* separador */
+hr {
+    border: 0;
+    height: 3px;
+    background-color: #00bab3;
+    margin: 10px 0;
+}
+
+/* Estilização para o carrossel */
+.carousel-inner {
+    /* Define altura máxima do carrossel */
+    height: 500px; /* Ajuste conforme necessário */
+    /* Define largura total */
+    width: 100%;
+}
+
+/* Estilo para as imagens dentro do carrossel */
+.carousel-inner img {
+    /* Define a altura como 100% do carrossel */
+    height: 100%;
+    /* Faz com que as imagens se ajustem ao contêiner */
+    object-fit: cover;
+}
+
+/* Estilização para os controles do carrossel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    /* Personaliza a cor dos controles */
+    background-color: rgba(0, 0, 0, 0.5); /* Cor escura com opacidade */
+    /* Formato redondo dos controles */
+    border-radius: 50%;
+}
+
+/* Estilização para os botões de controle */
+.carousel-control-prev,
+.carousel-control-next {
+    /* Define a cor de fundo para os botões de controle */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Ajusta a largura e altura dos botões */
+    width: 5%;
+    height: 100%;
+}
+
+/* Estilo opcional para o carrossel */
+.carousel {
+    /* Estilização adicional, se necessário */
+}
+
+/* rodapé */
+.footer {
+    background-color: #f3f3f3; /* cor de fundo */
+    padding: 20px 0;
+    color: #000; /* cor do texto */
+}
+
+/* links do rodapé */
+.footer a {
+    color: #000; /* cor do texto */
+    margin-right: 20px; /* margem direita */
+    transition: color 0.3s; /* transição de cor ao passar o mouse */
+    text-decoration: none; /* remove sublinhado dos links */
+    width: 100%; /* Define a largura como 100% */
+}
+
+/* hover para os links do rodapé */
+.footer a:hover {
+    color: #c3c3c3; /* cor do texto ao passar o mouse */
+}
+
+.footer p {
+    text-align: center;
+}
+
+/* alinhar os itens verticalmente */
+.col-md-8 .d-flex {
+    flex-direction: column; /* define a direção flexível para a coluna */
+    align-items: flex-start; /* alinha os itens à esquerda */
+    margin-left: 500px;
+}
+
+/* adiciona margens entre os itens */
+.col-md-8 .d-flex > div {
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+/* container flexível */
+.d-flex {
+    justify-content: flex-start; /* alinha o conteúdo à esquerda */
+}
+
+/* div.text */
+.text h3 {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 10px; /* espaçamento superior entre títulos */
+    margin-bottom: 5px; /* espaçamento inferior entre títulos e parágrafos */
+}
+
+/* parágrafos */
+.text p {
+    font-size: medium;
+    margin-bottom: 10px; /* espaçamento inferior entre parágrafos e títulos seguintes */
+}
