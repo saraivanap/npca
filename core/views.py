@@ -20,3 +20,12 @@ def publicacoes(request):
 
 def lab(request):
     return render(request, 'lab.html')
+
+def ps(request):
+    return render(request, 'ps.html')
+
+def leituras(request):
+    return render(request, 'leituras.html')
+
+def oc(request):
+    return render(request, 'oc.html')
