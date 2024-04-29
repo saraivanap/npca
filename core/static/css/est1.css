@@ -1,0 +1,24 @@
+body {
+    margin-top: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* título com separador */
+.content-title {
+    color: #000; /* cor do texto */
+    font-weight: bold; /* fonte em negrito */
+    font-size: 24px; /* tamanho da fonte */
+    margin-top: 20px;
+}
+
+/* separador */
+hr {
+    border: 0;
+    height: 3px;
+    background-color: #00bab3;
+    margin: 10px 0;
+}
+.text {
+    text-align: center;
+}

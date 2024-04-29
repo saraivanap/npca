@@ -29,3 +29,6 @@ def leituras(request):
 
 def oc(request):
     return render(request, 'oc.html')
+
+def ocinfo(request):
+    return render(request, 'ocinfo.html')

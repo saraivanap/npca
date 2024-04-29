@@ -12,4 +12,5 @@ urlpatterns = [
     path('ps/', views.ps, name='ps'),
     path('leituras/', views.leituras, name='leituras'),
     path('oc/', views.oc, name='oc'),
+    path('ocinfo/', views.ocinfo, name='ocinfo'),
 ]

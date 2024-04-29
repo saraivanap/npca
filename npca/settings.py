@@ -122,7 +122,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    'C:\\Users\\npca_\\npca\\static',
+    'C:\\Users\\npca_\\npca\\core\\static',
 ]
 
 # Default primary key field type
