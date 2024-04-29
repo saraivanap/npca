@@ -55,32 +55,33 @@
     box-shadow: none !important;
 }
 
-/* botões */
-.button {
-    /* centralizar os botões */
-    text-align: center;
-}
-.button .btn-dark {
-    background-color: #000; /* cor de fundo */
-    color: #fff; /* cor do texto */
-    border-radius: 30px; /* bordas arredondadas */
-    padding: 5px 15px; /* padding interno para maior conforto */
-    border: none;
-    transition: background-color 0.3s, color 0.3s; /* transição suave para o efeito hover */
+/* body */
+body {
+    min-height: 100vh; /* Altura mínima de 100% da janela */
+    display: flex; /* Use layout flexível */
+    flex-direction: column; /* Organize o conteúdo em uma coluna */
+    margin: 0; /* Remova a margem */
 }
 
-/* hover para os botões */
-.button .btn-dark:hover {
-    background-color: #c3c3c3; /* cor de fundo ao passar o mouse */
-    color: #000; /* cor do texto ao passar o mouse */
-    border: none;
+/* conteúdo principal ocupa o espaço restante */
+main, .content {
+    flex-grow: 1; /* Permite que o conteúdo principal cresça */
 }
+
+
+/* elementos principais */
+.row, .col, .d-flex, .text {
+    width: 100%; /* Ocupa 100% da largura do contêiner pai */
+    height: auto; /* Altura automática com base no conteúdo */
+}
+
 
 /* rodapé */
 .footer {
     background-color: #f3f3f3; /* cor de fundo */
     padding: 20px 0;
     color: #000; /* cor do texto */
+    padding: 10px; /* padding no rodapé */
 }
 
 /* links do rodapé */
