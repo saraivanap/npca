@@ -1,0 +1,42 @@
+/* container título */
+.container-title {
+    text-align: center;
+    color: #000;
+}
+
+/*títulos */
+.container-title h3 {
+    font-size: 1.5em; /* define tamanho da fonte do título */
+    font-weight: bold; /* fonte em negrito */
+    margin-bottom: 10px; /* espaçamento inferior */
+}
+
+/* parágrafos */
+.container-title p {
+    font-size: 1em; /* Define o tamanho da fonte dos parágrafos */
+    margin-bottom: 5px; /* Espaçamento inferior entre parágrafos */
+}
+
+/* corpo */
+.container-body {
+    margin-top: 50px; /* margem superior */
+    color: #000;
+    margin-left: 50px;
+}
+
+/* títulos dentro da container */
+.container-body h3 {
+    font-size: 1.5em; /* tamanho da fonte do título */
+    font-weight: bold; /*fonte em negrito */
+    margin-top: 10px; /* espaçamento inferior do título */
+    margin-left: 10px;
+}
+
+/* parágrafos dentro da container */
+.container-body p {
+    font-size: 1em; /* tamanho padrão da fonte */
+    line-height: 1; /* espaçamento entre linhas */
+    margin-bottom: 5px; /* espaçamento inferior entre parágrafos */
+    margin-left: 40px;
+}
+

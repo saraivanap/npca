@@ -10,8 +10,12 @@
     <!-- bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- arquivos CSS -->
-    <link rel="stylesheet" href="{% static 'css/fix.css' %}">
-    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+    <link rel="stylesheet" href="{% static 'css/ts.css' %}">
+    <link rel="stylesheet" href="{% static 'css/body.css' %}">
+    <link rel="stylesheet" href="{% static 'css/botoes.css' %}">
+    <link rel="stylesheet" href="{% static 'css/ps.css' %}">
 </head>
 
 <body>
@@ -76,9 +80,9 @@
 
     <!-- conteúdo da página -->
     <!-- título com separador -->
-    <h2 class="content-title">Destaques</h2>
+    <h2 class="content-title">Processos Seletivos</h2>
     <hr>
-    <div class="container" style="margin-top: 80px;">
+    <div class="container-title" style="margin-top: 50px;">
         <div class="row">
             <div class="col">
                 <!-- texto -->
@@ -86,14 +90,14 @@
                 <p>Campus Paragominas</p>
                 <p>Núcleo de Pesquisas em Computação Aplicada (NPCA)</p>
                 <!-- botões -->
-                <div class="button">
+                <div class="button" style="margin-top: 20px">
                     <button type="button" class="btn btn-dark rounded-pill mr-2">Seleção de estudantes para iniciação Científica (IC) - ano 22xx</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container" style="margin-top: 80px;">
+    <div class="container-body" style="margin-top: 25px;">
         <div class="row">
             <div class="col">
                 <!-- texto -->
@@ -131,16 +135,15 @@
                     
                 <!-- botões -->
                 <div class="button">
-                    <button type="button" class="btn btn-dark rounded-pill mr-2">Inscrever-se</button>
+                    <button type="button" class="btn btn-dark rounded-pill mr-2" style="margin-top: 25px;" style="margin-bottom: 50px;">Inscrever-se</button>
                 </div>
             </div>
         </div>
+    </div>
         <hr>
-        <div class="container" style="margin-top: 80px;">
+        <div class="container-body" style="margin-top: 20px;">
             <div class="row">
                 <div class="col">
-                    <!-- texto -->                    
-                    <p>Núcleo de Pesquisas em Computação Aplicada (NPCA)</p>
                     <!-- botões -->
                     <div class="button">
                         <button type="button" class="btn btn-dark rounded-pill mr-2">Seleção de estudantes para iniciação Científica (IC) - ano 22xx</button>
@@ -149,7 +152,7 @@
             </div>
         </div>
     
-        <div class="container" style="margin-top: 80px;">
+        <div class="container-body" style="margin-top: 25px;">
             <div class="row">
                 <div class="col">
                     <!-- texto -->
@@ -184,12 +187,14 @@
                     <h3>Observações:</h3>
                     <p>Os discentes que se habilitarem passarão por um teste com tarefas de programação. Os resultados serão publicados nos 
                         canais oficiais do NPCA.</p>
+                </div>
+            </div>
+        </div>
 
-
-<!-- Botão -->
-<div class="button">
-    <button type="button" class="btn btn-dark rounded-pill mr-2">Resultado</button>
-</div>
+    <!-- Botão -->
+    <div class="button">
+        <button type="button" class="btn btn-dark rounded-pill mr-2" style="margin-top: 25px;" style="margin-bottom: 25px;">Resultado</button>
+    </div>
     <!-- rodapé -->
     <footer class="footer bg-light py-3 mt-4">
         <div class="container">

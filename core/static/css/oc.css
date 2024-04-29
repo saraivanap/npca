@@ -1,0 +1,25 @@
+/* título */
+.content h3 {
+    font-size: 2rem; /* tamanho da fonte do título */
+    font-weight: bold; /* fonte em negrito */
+    margin-bottom: 0.5rem; /* espaçamento inferior ao título */
+    margin-top: 30px;
+    color: #000; 
+    text-align: center;
+}
+
+/*  descrição */
+.content p {
+    font-size: 1rem; /* tamanho padrão da fonte */
+    margin-bottom: 0.5rem; /* espaçamento inferior entre parágrafos */
+    color: #000;
+    text-align: center;
+}
+
+/* texto */
+.col p {
+    font-size: 1rem; /* tamanho padrão da fonte */
+    margin-bottom:0.5rem;
+    color: #000;
+    margin-left: 40px;
+}

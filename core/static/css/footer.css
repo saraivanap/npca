@@ -1,0 +1,42 @@
+/* rodapé */
+.footer {
+    background-color: #f3f3f3; /* cor de fundo */
+    padding: 20px 0;
+    color: #000; /* cor do texto */
+    padding: 10px; /* padding no rodapé */
+}
+
+/* links do rodapé */
+.footer a {
+    color: #000; /* cor do texto */
+    margin-right: 20px; /* margem direita */
+    transition: color 0.3s; /* transição de cor ao passar o mouse */
+    text-decoration: none; /* remove sublinhado dos links */
+    width: 100%; /* Define a largura como 100% */
+}
+
+/* hover para os links do rodapé */
+.footer a:hover {
+    color: #c3c3c3; /* cor do texto ao passar o mouse */
+}
+
+/* footer contato */
+.footer p { 
+    text-align: center;
+}
+
+/* alinhar os itens verticalmente */
+.col-md-8 .d-flex {
+    flex-direction: column; /* define a direção flexível para a coluna */
+    align-items: flex-start; /* alinha os itens à esquerda */
+    margin-left: 500px;
+}
+
+/* adiciona margens entre os itens */
+.col-md-8 .d-flex > div {
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style-type: none;
+}

@@ -1,0 +1,15 @@
+/* título com separador */
+.content-title {
+    color: #000; /* cor do texto */
+    font-weight: bold; /* fonte em negrito */
+    font-size: 2rem; /* tamanho da fonte */
+    margin-left: 20px;
+}
+
+/* separador */
+hr {
+    border: 0;
+    height: 3px;
+    background-color: #00bab3;
+    margin: 10px 0;
+}

@@ -1,0 +1,10 @@
+/* body */
+body {
+    flex-direction: column; /* conteúdo em coluna */
+    margin-top: 90px;
+}
+
+/* remove a barra de rolagem horizontal */
+html, body {
+    overflow-x: hidden; /* oculta a barra de rolagem horizontal */
+}

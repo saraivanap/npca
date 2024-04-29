@@ -1,0 +1,35 @@
+/* carrossel */
+.carousel-inner {
+    /* Define altura máxima do carrossel */
+    height: 500px; /* Ajuste conforme necessário */
+    /* Define largura total */
+    width: 100%;
+}
+
+/* imagens dentro do carrossel */
+.carousel-inner img {
+    /* Define a altura como 100% do carrossel */
+    height: 100%;
+    /* Faz com que as imagens se ajustem ao contêiner */
+    object-fit: cover;
+}
+
+/*controles do carrossel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    /* Personaliza a cor dos controles */
+    background-color: rgba(0, 0, 0, 0.5); /* Cor escura com opacidade */
+    /* Formato redondo dos controles */
+    border-radius: 50%;
+}
+
+/* botões de controle */
+.carousel-control-prev,
+.carousel-control-next {
+    /* Define a cor de fundo para os botões de controle */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Ajusta a largura e altura dos botões */
+    width: 5%;
+    height: 100%;
+}
+
