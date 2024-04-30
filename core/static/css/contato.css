@@ -1,11 +1,24 @@
-/* estilização para o container flexível */
-.d-flex {
-    flex-direction: column; /* organiza os itens em uma coluna */
-    align-items: flex-start; /* alinha os itens à esquerda */
-    margin-left: 30px;
+/* lista ul */
+ul {
+    list-style: none; /* remove os marcadores da lista */
+    padding: 0; /* remove o preenchimento */
 }
 
-/* estilo opcional para os itens */
-.d-flex > div {
-    margin-bottom: 10px; /* Espaçamento entre os itens */
+/* lista (li) */
+li {
+    margin-bottom: 20px; /* espaçamento inferior para cada item de lista */
+}
+
+/* links dentro dos itens de lista */
+li a {
+    color: #000; /* cor padrão dos links */
+    text-decoration: none; /* remove sublinhado */
+    display: flex; /* exibe os links como elementos flexíveis */
+    align-items: center; /* alinha os ícones e o texto centralizados verticalmente */
+    transition: color 0.3s; /* rransição suave para a cor dos links */
+}
+
+/* Estilo de hover para os links dentro dos itens de lista */
+li a:hover {
+    color: #c3c3c3; /* Cor dos links ao passar o mouse */
 }
