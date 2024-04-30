@@ -1,0 +1,60 @@
+/* Estilo para o parágrafo (p) dentro da div.text */
+.container .text p {
+    font-size: 16px; /* tamanho padrão da fonte */
+    line-height: 1.5; /* altura da linha para legibilidade */
+    color: #000; /* cor do texto */
+    text-align: left;
+    padding-top: 0% !important;
+    margin-bottom: 20px;
+}
+
+/*parágrafo dentro da div.text lab */
+.text p {
+    margin-top: 0; /* remove a margem superior */
+    margin-bottom: 0; /* remove a margem inferior */
+    font-size: 17px; 
+}
+
+/* h5 dentro da div.text lab */
+.text h5 {
+    font-size: 18px; /* define o tamanho da fonte */
+    font-weight: bold; /* define o texto em negrito */
+    color: #000; 
+    margin-top: 10px; /* espaçamento superior */
+    margin-bottom: 5px; /* espaçamento inferior */
+}
+
+/* ps títulos (h3) */
+.container-title h3, .container-body h3 {
+    font-size: 24px; /* tamanho da fonte para h3 */
+    font-weight: bold; /* fonte em negrito */
+    color: #000; /* cor do texto */
+    margin-bottom: 10px; /* espaçamento inferior */
+}
+
+/* ps parágrafos (p) */
+.container-title p, .container-body p {
+    font-size: 16px; /* Tamanho padrão da fonte */
+    line-height: 1.5; /* Altura da linha para legibilidade */
+    color: #666; /* Cor do texto */
+    margin: 0; /* Remove margens para remover espaço entre parágrafos */
+}
+
+/* ps contêiner body */
+.container-body {
+    padding: 40px; /* Padding interno para espaço */
+}
+
+/* leituras contêiner content */
+.content {
+    padding-left: 20px; 
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+/* leituras título h3 dentro do contêiner content */
+.content h3 {
+    font-size: 24px; 
+    font-weight: bold; /* fonte em negrito */
+    color: #000; 
+}

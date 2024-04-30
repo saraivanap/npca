@@ -1,0 +1,6 @@
+/* linha */
+.linha {
+    background-color: #c3c3c3 !important; /* cor cinza clara */
+    margin: 10px 20px; /* espaçamentos */
+    height: 1px;
+}

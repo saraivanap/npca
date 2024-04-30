@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="{% static 'css/footer.css' %}">
     <link rel="stylesheet" href="{% static 'css/ts.css' %}">
     <link rel="stylesheet" href="{% static 'css/body.css' %}">
-    <link rel="stylesheet" href="{% static 'css/botoes.css' %}">
-    <link rel="stylesheet" href="{% static 'css/ps.css' %}">
+    <link rel="stylesheet" href="{% static 'css/text.css' %}">
+    <link rel="stylesheet" href="{% static 'css/button.css' %}">
 </head>
 
 <body>
@@ -69,7 +69,7 @@
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Procurar..." aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-lg-0" type="submit">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
                           </svg>
                     </button>
@@ -82,7 +82,7 @@
     <!-- título com separador -->
     <h2 class="content-title">Processos Seletivos</h2>
     <hr>
-    <div class="container-title" style="margin-top: 50px;">
+    <div class="container-title" style="margin-top: 50px; text-align: center; padding-left: 20px; padding-right: 20px">
         <div class="row">
             <div class="col">
                 <!-- texto -->
@@ -90,14 +90,23 @@
                 <p>Campus Paragominas</p>
                 <p>Núcleo de Pesquisas em Computação Aplicada (NPCA)</p>
                 <!-- botões -->
-                <div class="button" style="margin-top: 20px">
-                    <button type="button" class="btn btn-dark rounded-pill mr-2">Seleção de estudantes para iniciação Científica (IC) - ano 22xx</button>
+                <div class="container">
+                    <div class="row" style="text-align: center; margin-top: 20px">
+                        <div class="col">
+                            <!-- botões -->
+                            <div class="button justify-content-between">
+                                <a href="/" class="btn btn-dark rounded-pill mr-2" style="margin-bottom: 10px;">
+                                    Seleção de estudantes para iniciação Científica (IC) - ano 22xx
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-body" style="margin-top: 25px;">
+    <div class="container-body" style="padding: 40px">
         <div class="row">
             <div class="col">
                 <!-- texto -->
@@ -134,25 +143,34 @@
                     canais oficiais do NPCA.</p>
                     
                 <!-- botões -->
-                <div class="button">
-                    <button type="button" class="btn btn-dark rounded-pill mr-2" style="margin-top: 25px;" style="margin-bottom: 50px;">Inscrever-se</button>
+                <div class="container">
+                    <div class="row" style="text-align: center; margin-top: 40px">
+                        <div class="col">
+                            <!-- botões -->
+                            <div class="button justify-content-between">
+                                <a href="/" class="btn btn-dark rounded-pill mr-2">
+                                    Inscrever-se
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
         <hr>
-        <div class="container-body" style="margin-top: 20px;">
+
+        <div class="container-title" style="margin-top: 50px; text-align: center; padding-left: 20px; padding-right: 20px">
             <div class="row">
                 <div class="col">
-                    <!-- botões -->
-                    <div class="button">
-                        <button type="button" class="btn btn-dark rounded-pill mr-2">Seleção de estudantes para iniciação Científica (IC) - ano 22xx</button>
-                    </div>
+                    <!-- texto -->
+                    <h3>Seleção de estudantes para iniciação Científica (IC)</h3>
+                    <p>ano 22xx</p>
                 </div>
             </div>
         </div>
-    
-        <div class="container-body" style="margin-top: 25px;">
+
+        <div class="container-body">
             <div class="row">
                 <div class="col">
                     <!-- texto -->
@@ -191,10 +209,19 @@
             </div>
         </div>
 
-    <!-- Botão -->
-    <div class="button">
-        <button type="button" class="btn btn-dark rounded-pill mr-2" style="margin-top: 25px;" style="margin-bottom: 25px;">Resultado</button>
+   <!-- botões -->
+   <div class="container">
+    <div class="row" style="text-align: center;">
+        <div class="col">
+            <!-- botões -->
+            <div class="button justify-content-between">
+                <a href="/" class="btn btn-dark rounded-pill mr-2" style="margin-bottom: 10px;">
+                    Resultado
+                </a>
+            </div>
+        </div>
     </div>
+</div>
 
     <!-- rodapé -->
     <footer>

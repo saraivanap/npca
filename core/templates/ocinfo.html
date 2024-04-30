@@ -14,10 +14,10 @@
     <link rel="stylesheet" href="{% static 'css/footer.css' %}">
     <link rel="stylesheet" href="{% static 'css/ts.css' %}">
     <link rel="stylesheet" href="{% static 'css/body.css' %}">
-    <link rel="stylesheet" href="{% static 'css/botoes.css' %}">
     <link rel="stylesheet" href="{% static 'css/oc.css' %}">
     <link rel="stylesheet" href="{% static 'css/info.css' %}">
     <link rel="stylesheet" href="{% static 'css/card.css' %}">
+    <link rel="stylesheet" href="{% static 'css/button.css' %}">
 </head>
 
 <body>
@@ -71,7 +71,7 @@
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Procurar..." aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-lg-0" type="submit">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
                           </svg>
                     </button>
@@ -94,7 +94,7 @@
         <h3>Título</h3>
         <p>Descrição</p>
     </div>
-    <div class="row mt-4">
+    <div class="row mt-4" style="padding: 20px">
         <div class="col"> 
             <!-- Container flexível para o texto e a imagem -->
             <div class="d-flex justify-content-between">
@@ -111,7 +111,7 @@
                     
                 </div>
                 <!-- imagem -->
-                <div class="image">
+                <div class="image" >
                     <img src="{% static 'imagens/foto.png' %}" alt="foto" width="400" height="auto">
                 </div>
             </div>
@@ -125,8 +125,8 @@
 
     <h2 class="content-title">Instrutores</h2>
     <hr class="linha">
-    <div class="row mt-4">
-        <div class="col-md-4">
+    <div class="row mt-4" style="padding: 40px">
+        <div class="col-md-4" style="margin-bottom: 15px">
             <div class="card">
                 <img src="{% static 'imagens/fotoprojeto.png' %}" class="card-img-top" alt="Imagem 1" style="flex">
                 <div class="card-body">
@@ -135,7 +135,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" style="margin-bottom: 15px">
             <div class="card">
                 <img src="{% static 'imagens/fotoprojeto.png' %}" class="card-img-top" alt="Imagem 2">
                 <div class="card-body">
@@ -144,7 +144,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" style="margin-bottom: 15px">
             <div class="card">
                 <img src="{% static 'imagens/fotoprojeto.png' %}" class="card-img-top" alt="Imagem 3">
                 <div class="card-body">
@@ -203,17 +203,19 @@
         <p>texto</p>
     </div>
     
-        <!-- botões -->
-        <div class="button">
-            <a href="/ocinfo" class="btn btn-dark rounded-pill mr-2">
-                Voltar
-            </a>
-            <a href="/inscricoes" class="btn btn-dark rounded-pill mr-2">
-                Inscrever-se
-            </a>
-        </div> 
+    <!-- botões -->
+    <div class="container">
+        <div class="row" style="text-align: center">
+            <div class="col">
+                <!-- botões -->
+                <div class="button justify-content-between">
+                    <a href="/" class="btn btn-dark rounded-pill mr-2" style="margin-bottom: 10px;">
+                        Inscrever-se
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-    <hr>
     
     <!-- rodapé -->
     <footer>

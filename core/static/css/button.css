@@ -1,0 +1,16 @@
+/* botões */
+.button a {
+    margin-bottom: 10px; /* espaçamento inferior para os botões */
+    border-radius: 30px; /* borda arredondada com raio de 20px (ajuste conforme necessário) */
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s; /* transição suave para hover */
+    text-align: center;
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+/* hover para os botões */
+.button a:hover {
+    background-color: #353b41; /* cor de fundo mais escura ao passar o mouse */
+    color: #ffffff; /* cor do texto branca ao passar o mouse */
+}

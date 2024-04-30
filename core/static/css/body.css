@@ -3,9 +3,7 @@ body {
     flex-direction: column; /* conteúdo em coluna */
     margin-top: 90px !important;
     width: 100% !important; /* ocupa 100% da largura da tela */
-    margin-left: 0 !important; /* remove margens */
-    margin-right: 0 !important; /* remove margens */;
-    padding: 0 !important; /* Remove preenchimentos */
+    padding: 0 !important; /* preenchimentos */
     display: flex; /* define layout flexível */
 }
 
@@ -15,9 +13,3 @@ html, body {
     width: 100% !important;
 }
 
-
-/* conteúdo principal */
-main {
-    flex-grow: 1 !important; /* Permite que o conteúdo cresça para ocupar o espaço restante */
-    width: 100% !important;
-}

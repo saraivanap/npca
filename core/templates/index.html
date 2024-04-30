@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="{% static 'css/footer.css' %}">
     <link rel="stylesheet" href="{% static 'css/card.css' %}">
     <link rel="stylesheet" href="{% static 'css/ts.css' %}">
-    <link rel="stylesheet" href="{% static 'css/botoes.css' %}">
     <link rel="stylesheet" href="{% static 'css/body.css' %}">
+    <link rel="stylesheet" href="{% static 'css/button.css' %}">
 </head>
 
 <body>
@@ -79,9 +79,8 @@
     </nav>
 
     <!-- conteúdo da página -->
-    <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col" style="text-align: center; font-size:18px; padding: 40px;">
                 <!-- texto -->
                 <p>O Grupo de Pesquisa Núcleo de Pesquisas em Computação Aplicada da Universidade Federal Rural da Amazônia (UFRA) é uma entidade 
                     criada com o propósito de servir como um catalisador para o desenvolvimento de pesquisas em uma ampla gama de áreas da ciência 
@@ -93,16 +92,23 @@
                     tecnológico não apenas da região amazônica, mas também do país como um todo.</p>
 
                 <!-- botões -->
-                <div class="button justify-content-between">
-                    <a href="/publicacoes" class="btn btn-dark rounded-pill mr-2" style="margin-bottom: 10px;">
-                        Publicações
-                    </a>
-                    <a href="/lab" class="btn btn-dark rounded-pill mr-2" style="margin-bottom: 10px;">
-                        Laboratório de Computação Aplicada
-                    </a>
-                    <a href="https://dgp.cnpq.br/dgp/espelhogrupo/2599301941111101" class="btn btn-dark rounded-pill mr-2" style="margin-bottom: 10px;">
-                        GPD / CNPq
-                    </a>
+                <div class="container">
+                    <div class="row" style="text-align: center">
+                        <div class="col">
+                            <!-- botões -->
+                            <div class="button justify-content-between">
+                                <a href="/publicacoes" class="btn btn-dark rounded-pill mr-2" style="margin-bottom: 10px;">
+                                    Publicações
+                                </a>
+                                <a href="/lab" class="btn btn-dark rounded-pill mr-2" style="margin-bottom: 10px;">
+                                    Laboratório de Computação Aplicada
+                                </a>
+                                <a href="https://dgp.cnpq.br/dgp/espelhogrupo/2599301941111101" class="btn btn-dark rounded-pill mr-2" style="margin-bottom: 10px;">
+                                    GPD / CNPq
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -110,8 +116,8 @@
     <!-- título com separador -->
     <h2 class="content-title">Destaques</h2>
     <hr>
-        <div class="row mt-4">
-            <div class="col-md-4" style="margin-bottom: 10px;">
+        <div class="row mt-4" style="padding: 40px">
+            <div class="col-md-4" style="margin-bottom: 15px">
                 <div class="card">
                     <img src="{% static 'imagens/fotoprojeto.png' %}" class="card-img-top" alt="Imagem 1">
                     <div class="card-body">
@@ -119,7 +125,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4" style="margin-bottom: 10px;">
+            <div class="col-md-4" style="margin-bottom: 15px;">
                 <div class="card">
                     <img src="{% static 'imagens/fotoprojeto.png' %}" class="card-img-top" alt="Imagem 2">
                     <div class="card-body">
@@ -127,7 +133,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4" style="margin-bottom: 10px;">
+            <div class="col-md-4" style="margin-bottom: 15px;">
                 <div class="card">
                     <img src="{% static 'imagens/fotoprojeto.png' %}" class="card-img-top" alt="Imagem 3">
                     <div class="card-body">
@@ -143,9 +149,9 @@
 <div class="row mt-4">
     <div class="col">
         <!-- Container flexível para o texto e a imagem -->
-        <div class="d-flex justify-content-between">
+        <div class="d-flex justify-content-between" style="padding: 40px;">
             <!-- Texto -->
-            <div class="text">
+            <div class="text" style="font-size:18px; text-align: center">
                 <p>A Universidade Federal Rural da Amazônia (UFRA), fundada em 1975, destaca-se como uma instituição de ensino superior pública situada no estado do Pará. Reconhecida pela sua atuação nas áreas de ciências agrárias e ambientais, a UFRA oferece cursos de graduação e pós-graduação alinhados às demandas regionais, promovendo a formação de profissionais qualificados e o avanço do conhecimento científico. Além disso, a UFRA tem um forte compromisso com a extensão universitária, desenvolvendo projetos e programas que visam à integração com a comunidade e à promoção do desenvolvimento sustentável na região amazônica.</p>
                 
             </div>
@@ -156,12 +162,21 @@
         </div>
     </div>
 </div>
-<!-- Botão -->
-<div class="button">
-    <a href="https://www.google.com/maps/place/PA-256+-+Nova+Conquista,+Paragominas+-+PA,+Brasil/@-2.989053,-47.407198,17z/data=!4m6!3m5!1s0x92ba2ce4420df23d:0xd3c0d4766aa97628!8m2!3d-2.9848723!4d-47.4533489!16s%2Fg%2F11x1nm7z3?hl=pt-BR&entry=ttu" class="btn btn-dark rounded-pill mr-2">
-        Ver no Mapa
-    </a>
+<div class="container">
+    <div class="row" style="text-align: center;">
+        <div class="col">
+            <!-- botões -->
+            <div class="button justify-content-between">
+                <a href="https://www.google.com/maps/place/PA-256+-+Nova+Conquista,+Paragominas+-+PA/@-2.989053,-47.407198,17z/data=!4m6!3m5!1s0x92ba2ce4420df23d:0xd3c0d4766aa97628!8m2!3d-2.9848064!4d-47.4543701!16s%2Fg%2F11x1nm7z3?hl=pt-BR&entry=ttu" class="btn btn-dark rounded-pill mr-2" style="margin-bottom: 10px;">
+                    Ver no Mapa
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
+
+
+
 <footer>
     <div class="row">
         <!-- primeira coluna centralizada -->

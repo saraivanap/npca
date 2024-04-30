@@ -11,6 +11,7 @@
 .nav-link, .dropdown-item {
     color: #000 !important; /* cor do texto preta */
     transition: color 0.3s; /* transição suave para o efeito hover */
+    font-size: larger;
 }
 
 /* hover  */
