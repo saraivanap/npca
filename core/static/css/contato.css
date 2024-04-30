@@ -12,13 +12,18 @@ li {
 /* links dentro dos itens de lista */
 li a {
     color: #000; /* cor padrão dos links */
-    text-decoration: none; /* remove sublinhado */
+    text-decoration: none !important; /* remove sublinhado */
     display: flex; /* exibe os links como elementos flexíveis */
     align-items: center; /* alinha os ícones e o texto centralizados verticalmente */
     transition: color 0.3s; /* rransição suave para a cor dos links */
+    font-size: 20px;
 }
 
 /* Estilo de hover para os links dentro dos itens de lista */
 li a:hover {
     color: #c3c3c3; /* Cor dos links ao passar o mouse */
+}
+
+li a svg {
+    margin-right: 15px;
 }
