@@ -1,10 +1,23 @@
 /* body */
 body {
     flex-direction: column; /* conteúdo em coluna */
-    margin-top: 90px;
+    margin-top: 90px !important;
+    width: 100% !important; /* ocupa 100% da largura da tela */
+    margin-left: 0 !important; /* remove margens */
+    margin-right: 0 !important; /* remove margens */;
+    padding: 0 !important; /* Remove preenchimentos */
+    display: flex; /* define layout flexível */
 }
 
-/* remove a barra de rolagem horizontal */
+/* html e body */
 html, body {
     overflow-x: hidden; /* oculta a barra de rolagem horizontal */
+    width: 100%;
+}
+
+
+/* conteúdo principal */
+main {
+    flex-grow: 1; /* Permite que o conteúdo cresça para ocupar o espaço restante */
+    width: 100%;
 }
