@@ -1,40 +1,40 @@
 /* rodapé */
-.footer {
-    bottom: 0; /* posiciona na parte inferior */
-    background-color: #f3f3f3; /* cor de fundo */
-    color: #000; /* cor do texto */    
-    width: 100% !important; /* ocupa 100% da largura da tela */
+footer {
+    background-color: #f8f9fa; /* cor de fundo */
+    margin-top: 50px; /* margem superior para separar o rodapé do conteúdo acima */
+    text-align: left; /* alinha o texto à esquerda */
+    width: 100%; /* ocupa 100% da largura da tela */
 }
 
-/* links do rodapé */
-.footer a {
+/* texto dentro das colunas */
+footer .col-6 div {
+    text-align: left; /* alinha o texto à esquerda */
+    margin-top: 30px;
+}
+
+/* listas  */
+footer ul {
+    list-style-type: none; /* remove marcadores das listas */
+    padding: 0; /* remove preenchimento */
+}
+
+/* links dentro das listas */
+footer ul li a {
     color: #000; /* cor do texto */
+    display: block; /* cada link ocupa toda a largura */
+    margin: 5px 0; /* espaçamento superior e inferior */
+    text-decoration: none; /* remove sublinhado dos links */
     transition: color 0.3s; /* transição de cor ao passar o mouse */
+}
+
+footer ul li a:hover {
+    color: #c3c3c3; /* cor do texto ao passar o mouse */
     text-decoration: none; /* remove sublinhado dos links */
 }
 
-/* hover para os links do rodapé */
-.footer a:hover {
-    color: #c3c3c3; /* cor do texto ao passar o mouse */
-}
-
 /* footer contato */
-.footer p { 
-    text-align: center;
-    font-weight: bold; /* fonte em negrito */
-}
-
-/* alinhar os itens verticalmente */
-.col-md-8 .d-flex {
-    flex-direction: column; /* define a direção flexível para a coluna */
-    align-items: flex-start; /* alinha os itens à esquerda */
-}
-
-/* adiciona margens entre os itens */
-.col-md-8 .d-flex > div {
-    margin-bottom: 10px;
-}
-
-.footer ul {
-    list-style-type: none;
+footer .text p {
+    font-weight: bold; /* negrito */
+    margin: 20px; 
+    text-align: center; /* centraliza */
 }

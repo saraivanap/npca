@@ -8,8 +8,7 @@
 
 /* separador */
 hr {
-    border: 0;
     height: 3px;
     background-color: #00bab3;
-    margin: 10px 0;
+    margin: 10px 20px; /* espaçamentos */
 }

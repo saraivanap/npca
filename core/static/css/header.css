@@ -4,6 +4,7 @@
     padding: 10px 20px; /* espaçamento interno */
     border-bottom: 1px solid #c3c3c3; /* cor e estilo da linha */
     width: 100% !important; /* ocupa 100% da largura da tela */
+    color:#000;
 }
 
 /* itens do menu de navegação */

@@ -12,12 +12,12 @@ body {
 /* html e body */
 html, body {
     overflow-x: hidden; /* oculta a barra de rolagem horizontal */
-    width: 100%;
+    width: 100% !important;
 }
 
 
 /* conteúdo principal */
 main {
-    flex-grow: 1; /* Permite que o conteúdo cresça para ocupar o espaço restante */
-    width: 100%;
+    flex-grow: 1 !important; /* Permite que o conteúdo cresça para ocupar o espaço restante */
+    width: 100% !important;
 }
