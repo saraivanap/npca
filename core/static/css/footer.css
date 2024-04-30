@@ -1,6 +1,6 @@
 /* rodapé */
 .footer {
-    bottom: 0 !important; /* posiciona na parte inferior */
+    bottom: 0; /* posiciona na parte inferior */
     background-color: #f3f3f3; /* cor de fundo */
     color: #000; /* cor do texto */    
     width: 100% !important; /* ocupa 100% da largura da tela */

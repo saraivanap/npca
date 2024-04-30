@@ -1,0 +1,66 @@
+/* linha */
+.linha {
+    background-color: #c3c3c3 !important; /* cor cinza clara */
+    margin: 10px 20px; /* espaçamentos */
+    height: 1px;
+}
+
+/* Estilo para o container flexível */
+.d-flex {
+    display: flex; /* Define o container como flexível */
+    justify-content: space-between; /* Espaça o conteúdo nas extremidades */
+    align-items: flex-start; /* Alinha os itens no início */
+    gap: 20px; /* Define um espaço de 20px entre os itens */
+}
+
+/* Estilização para a div.text */
+.text {
+    margin-right: 20px; /* Espaçamento à direita da div.text */
+}
+
+/* Estilo para os títulos dentro de div.text */
+.text h3 {
+    margin-top: 10px; /* Espaçamento superior */
+    margin-bottom: 5px; /* Espaçamento inferior */
+    margin-left: 40px;
+    font-weight: bold; /* Define fonte em negrito */
+    text-align: left;
+    font-size: large;
+}
+
+/* Estilização para os parágrafos dentro de div.text */
+.text p {
+    margin-bottom: 10px; /* Espaçamento inferior entre parágrafos */
+    margin-left: 50px;
+    text-align: left;
+    font-size: large;
+}
+
+/* Estilização para a div.image */
+.image img {
+    align-items: end;
+    margin-right: 40px;
+}
+
+/* Estilo para o botão com classe "btn" e "btn-primary" */
+.btn {
+    color: #000; /* cor inicial do texto */
+    border-radius: 100px; /* bordas arredondadas */
+    background-color: transparent; /* fundo transparente */
+    border: none; 
+    text-align: center;
+}
+
+/* hover botão pesquisar */
+.btn:hover {
+    background-color: transparent; /* cor de fundo ao passar o mouse */
+    color: #333;
+}
+
+/* ao clicar no botão de pesquisa*/
+.btn:active {
+    background-color: #f3f3f3 !important; /* cor de fundo ao ser clicado */
+    color: #000 !important; /* cor do texto */
+    border: #333 !important; /* cor da borda */
+    box-shadow: none !important;
+}
