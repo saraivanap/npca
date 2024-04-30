@@ -1,9 +1,9 @@
 /* rodapé */
 footer {
     background-color: #f8f9fa; /* cor de fundo */
-    margin-top: 50px; /* margem superior para separar o rodapé do conteúdo acima */
     text-align: left; /* alinha o texto à esquerda */
     width: 100%; /* ocupa 100% da largura da tela */
+    margin-top: 50px;
 }
 
 /* texto dentro das colunas */
@@ -16,6 +16,7 @@ footer .col-6 div {
 footer ul {
     list-style-type: none; /* remove marcadores das listas */
     padding: 0; /* remove preenchimento */
+    font-size: large;
 }
 
 /* links dentro das listas */
@@ -38,3 +39,4 @@ footer .text p {
     margin: 20px; 
     text-align: center; /* centraliza */
 }
+
