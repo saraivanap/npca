@@ -41,7 +41,7 @@
     border-radius: 100px; /* bordas arredondadas */
     background-color: transparent; /* fundo transparente */
     border: none; 
-    text-align: center;
+    text-align: center !important;
 }
 
 /* hover botão pesquisar */

@@ -20,68 +20,66 @@
 <body>
     <!-- Barra de navegação -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-            <!-- logo -->
-            <a class="navbar-brand" href="/">
-                <img src="{% static 'imagens/logo.png' %}" alt="logo" height="40">
-            </a>
+        <!-- logo -->
+        <a class="navbar-brand" href="/">
+            <img src="{% static 'imagens/logo.png' %}" alt="logo" height="50">
+        </a>
 
-            <!-- botão para colapsar a barra de navegação em dispositivos menores -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- botão para colapsar a barra de navegação em dispositivos menores -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <!-- menu de navegação -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/pesquisa">Linhas de Pesquisa</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/projetos">Projetos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contato">Contato</a>
-                    </li>
-                    <!-- menu suspenso -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Mais
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/pesquisadores">Pesquisadores</a></li>
-                            <li><a class="dropdown-item" href="/publicacoes">Publicações</a></li>
-                            <li><a class="dropdown-item" href="/lab">Laboratório</a></li>
-                            <li><a class="dropdown-item" href="/ps">Processo Seletivo</a></li>
-                            <li><a class="dropdown-item" href="/leituras">Leituras</a></li>
-                            <li><a class="dropdown-item" href="/oc">Oficinas e Cursos</a></li>
-                        </ul>
-                    </li>
-                </ul>
+        <!-- menu de navegação -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pesquisa">Linhas de Pesquisa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/projetos">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contato">Contato</a>
+                </li>
+                <!-- menu suspenso -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Mais
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="/pesquisadores">Pesquisadores</a></li>
+                        <li><a class="dropdown-item" href="/publicacoes">Publicações</a></li>
+                        <li><a class="dropdown-item" href="/lab">Laboratório</a></li>
+                        <li><a class="dropdown-item" href="/ps">Processo Seletivo</a></li>
+                        <li><a class="dropdown-item" href="/leituras">Leituras</a></li>
+                        <li><a class="dropdown-item" href="/oc">Oficinas e Cursos</a></li>
+                    </ul>
+                </li>
+            </ul>
 
-                <!-- barra de pesquisa -->
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Procurar..." aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-lg-0" type="submit">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                          </svg>
-                    </button>
-                </form>
-            </div>
+            <!-- barra de pesquisa -->
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Procurar..." aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-lg-0" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                      </svg>
+                </button>
+            </form>
         </div>
-    </nav>
+</nav>
 
     <!-- conteúdo da página -->
     <!-- título com separador -->
     <h2 class="content-title">Redes Sociais</h2>
     <hr>
-
+    
     <div class="row">
         <div class="col-6 d-flex justify-content-center" style="margin: 0">
             <div style="text-align: left; margin-top: 20px">
