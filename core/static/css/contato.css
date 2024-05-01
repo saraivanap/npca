@@ -2,21 +2,12 @@
 ul {
     list-style: none; /* remove os marcadores da lista */
     padding: 0; /* remove o preenchimento */
-}
-
-/* lista (li) */
-li {
-    margin-bottom: 20px; /* espaçamento inferior para cada item de lista */
-}
-
-/* links dentro dos itens de lista */
-li a {
-    color: #000; /* cor padrão dos links */
-    text-decoration: none !important; /* remove sublinhado */
-    display: flex; /* exibe os links como elementos flexíveis */
-    align-items: center; /* alinha os ícones e o texto centralizados verticalmente */
     transition: color 0.3s; /* rransição suave para a cor dos links */
-    font-size: 20px;
+}
+
+li a {
+    color: #000; /* cor dos links */
+    text-decoration: none !important; /* remove sublinhado */
 }
 
 /* Estilo de hover para os links dentro dos itens de lista */
@@ -26,4 +17,5 @@ li a:hover {
 
 li a svg {
     margin-right: 20px;
+    margin-bottom: 10px;
 }
